@@ -26,10 +26,12 @@ To run the code locally:
   **Maven --> Update Project**. Then select the **confusionMatrix** project in the pop-up window and press **OK**.
 
 -	Select **confusionMatrix** project, right click and select **Run As** and select **Run Configurations**. 
-- Provide as argument a Java properties file and press **Run**
+- Provide as argument a [Java properties file](/sample.properties) and press **Run**
 
-## [Sample Properties file](/sample.properties)
-- conv_url=https://gateway.watsonplatform.net/conversation/api/v1/workspaces/$WORKSPACE_ID/message?version=2016-07-11
+The properties file should define variables such as the conversation url (conv_url), userid and userpass (these are the username and password from your instance of Watson Conversation Service), numIntents (the number of intents defined in your Watson Conversation Service workspace), [test_csv_filename](/sampleTest.csv?raw=true) (csv file which includes test data) and confmatrix_filename (csv file to write the results to).
+
+### Sample Properties file ###
+- conv_url=https://gateway.watsonplatform.net/conversation/api/v1/workspaces/WORKSPACE_ID/message?version=2016-07-11
 - userid=YOUR_WATSON_CONVERSATION_SERVICE_username
 - userpass= YOUR_WATSON_CONVERSATION_SERVICE_password
 - numIntents=NUMBER_OF_INTENTS
@@ -50,5 +52,3 @@ userpass is the password for your Watson Conversation Service.
 numIntents is the number of intents your Conversation service is trained on.
 Test_csv_filename is the complete path to the csv file which includes test utterances (user text) and their corresponding intents.
 confmatrix_filename is the name of a file (complete path) to write out the results to.
-
-[Sample Test csv file](/sampleTest.csv?raw=true)
