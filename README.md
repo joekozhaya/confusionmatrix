@@ -28,13 +28,13 @@ To run the code locally:
 -	Select **confusionMatrix** project, right click and select **Run As** and select **Run Configurations**. 
 - Provide as argument a Java properties file and press **Run**
 
-## Sample Properties file
-conv_url=https://gateway.watsonplatform.net/conversation/api/v1/workspaces/$WORKSPACE_ID/message?version=2016-07-11
-userid=YOUR_WATSON_CONVERSATION_SERVICE_username
-userpass= YOUR_WATSON_CONVERSATION_SERVICE_password
-numIntents=NUMBER_OF_INTENTS
-test_csv_filename=COMPLETE_PATH_TO_YOUR_CSV_TEST_FILE
-confmatrix_filename=COMPLETE_PATH_TO_YOUR_CSV_CONFUSIONMATRIX_RESULTS_FILE
+## [Sample Properties file](/sample.properties)
+- conv_url=https://gateway.watsonplatform.net/conversation/api/v1/workspaces/$WORKSPACE_ID/message?version=2016-07-11
+- userid=YOUR_WATSON_CONVERSATION_SERVICE_username
+- userpass= YOUR_WATSON_CONVERSATION_SERVICE_password
+- numIntents=NUMBER_OF_INTENTS
+- test_csv_filename=COMPLETE_PATH_TO_YOUR_CSV_TEST_FILE
+- confmatrix_filename=COMPLETE_PATH_TO_YOUR_CSV_CONFUSIONMATRIX_RESULTS_FILE
 
 To get conv_url, userid, userpass, and numIntents:
 -	Log into your Bluemix account
