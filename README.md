@@ -46,9 +46,5 @@ To get conv_url, userid, userpass, and numIntents:
 -	Select the workspace that includes the conversation intents you’d like to test (hit the menu 3 dots and select “View details”)
 -	Go back and click on the workspace to open it and go to Intents tab to get the number of intents defined (if you don’t know those).
 
-conv_url is the url link to your Watson Conversation Service which includes reference to the specific WORKSPACE_ID for your conversation flow.
-userid is the username for your Watson Conversation Service.
-userpass is the password for your Watson Conversation Service.
-numIntents is the number of intents your Conversation service is trained on.
-Test_csv_filename is the complete path to the csv file which includes test utterances (user text) and their corresponding intents.
-confmatrix_filename is the name of a file (complete path) to write out the results to.
+## License ##
+This sample code is licensed under Apache 2.0. Full license text is available in [LICENSE](/License.md)
