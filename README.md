@@ -48,9 +48,7 @@ conv_url is the url link to your Watson Conversation Service which includes refe
 userid is the username for your Watson Conversation Service.
 userpass is the password for your Watson Conversation Service.
 numIntents is the number of intents your Conversation service is trained on.
-Test_csv_filename is the complete path to the csv file which includes test utterances and their corresponding intents. Here is an example test csv file:
+Test_csv_filename is the complete path to the csv file which includes test utterances (user text) and their corresponding intents.
 confmatrix_filename is the name of a file (complete path) to write out the results to.
 
-## Sample Test csv file
-
-## Sample Result Confusion Matrix
+[Sample Test csv file](/sampleTest.csv?raw=true)
