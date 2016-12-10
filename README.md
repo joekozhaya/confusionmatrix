@@ -47,4 +47,5 @@ To get conv_url, userid, userpass, and numIntents:
 -	Go back and click on the workspace to open it and go to Intents tab to get the number of intents defined (if you don’t know those).
 
 ## License ##
-This sample code is licensed under Apache 2.0. Full license text is available in [LICENSE](/License.md)
+This sample code is provided as-is and licensed under Apache 2.0. Full license text is available in [LICENSE](/License.md)
+Code is intended to help with computing the confusion matrix, accuracy, precision, and recall of the intents classification in a Watson Conversation system.
