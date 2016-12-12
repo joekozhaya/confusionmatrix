@@ -4,7 +4,7 @@ for [Watson Conversation Service](http://www.ibm.com/watson/developercloud/conve
 the confusion matrix to help better understand the quality of your trained [Watson Conversation Service]
 (http://www.ibm.com/watson/developercloud/conversation.html).
 
-For further details on how to leverage this code, please refer to this blog.
+For further details on how to leverage this code, please refer to this [blog](https://developer.ibm.com/dwblog/2016/10-steps-train-chat-bot-chatbot-machine-learning/).
 
 # Running Locally
 To run the code locally:
